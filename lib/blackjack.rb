@@ -33,9 +33,9 @@ def hit?(card_total)
   prompt_user
   case get_user_input
   when "s"
-    x
+    puts x
   when "h"
-    x += deal_card
+   puts  x += deal_card
   when others
     invalid_command
   end
