@@ -38,6 +38,8 @@ if get_user_input == 's'
   
 else get_user_input == 'h' 
   return deal_card += 1 
+  
+  end
 end
 
 def invalid_command
