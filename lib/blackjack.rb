@@ -40,7 +40,7 @@ def invalid_command
   if get_user_input !== 'h' || 's'
     puts phrase = "Please enter a valid command."
   else
-    prompt_user
+    puts prompt_user
 end
 
 #####################################################
