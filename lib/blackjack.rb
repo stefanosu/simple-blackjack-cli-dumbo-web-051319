@@ -32,7 +32,6 @@ end
 def hit?(card_total)
   prompt_user
   get.get_user_input
-  end
 
 if get_user_input == 's' 
   return nil 
