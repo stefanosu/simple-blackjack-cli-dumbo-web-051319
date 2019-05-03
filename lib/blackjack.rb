@@ -31,7 +31,7 @@ end
 
 def hit?(card_total)
   prompt_user
-  get.get_user_input
+  gets.get_user_input
 
 if get_user_input == 's' 
   return nil 
