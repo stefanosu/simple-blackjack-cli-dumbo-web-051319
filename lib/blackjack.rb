@@ -34,10 +34,10 @@ def hit?(card_total)
   get.get_user_input
   end
 
-if gets.chomp == 's' 
+if get_user_input == 's' 
   return nil 
   
-else gets.chomp == 'h' 
+else get_user_input == 'h' 
   return deal_card += 1 
 end
 
