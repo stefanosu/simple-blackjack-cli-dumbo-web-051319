@@ -42,10 +42,6 @@ def hit?(card_total)
 end	
 
 def invalid_command
-  if !== 'h' || 's'
-    puts phrase = "Please enter a valid command."
-  else
-    puts prompt_user
 end
 
 #####################################################
