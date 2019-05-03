@@ -30,8 +30,7 @@ def initial_round
 end
 
 def hit?(card_total)
-  prompt_user
-  gets.get_user_input
+  prompt_user = gets.get_user_input
 
 if get_user_input == 's' 
   return nil 
