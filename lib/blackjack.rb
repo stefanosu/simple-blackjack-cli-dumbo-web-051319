@@ -30,15 +30,7 @@ def initial_round
 end
 
 def hit?(card_total)
-  prompt_user = gets.get_user_input
-
-if get_user_input == 's' 
-  return nil 
-  
-else get_user_input == 'h' 
-  return deal_card += 1 
-  
-  end
+  prompt_user
 end
 
 def invalid_command
