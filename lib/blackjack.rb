@@ -39,10 +39,7 @@ def hit?(card_total)
   when others
     invalid_command
   end
-end	end
-  return card_total
-  card = deal_card + deal_card
-end
+end	
 
 def invalid_command
   if !== 'h' || 's'
