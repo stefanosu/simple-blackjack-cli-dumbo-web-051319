@@ -29,8 +29,11 @@ def initial_round
   card
 end
 
-def hit?
-  # code hit? here
+def hit?(card_total)
+  prompt_user
+  get.get_user_input
+  end
+if get_user_input
 end
 
 def invalid_command
