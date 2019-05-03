@@ -55,7 +55,6 @@ end
 def runner
   welcome
   initial_round
-  display_card_total
   until initial_round > 21 
   end
 end_game
