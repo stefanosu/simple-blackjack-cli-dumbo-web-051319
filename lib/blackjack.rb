@@ -33,7 +33,12 @@ def hit?(card_total)
   prompt_user
   get.get_user_input
   end
-if get_user_input
+
+if gets.chomp == 's' 
+  return nil 
+  
+else gets.chomp == 'h' 
+  return deal_card += 1 
 end
 
 def invalid_command
