@@ -24,7 +24,7 @@ def end_game(card_total)
 end
 
 def initial_round
-  2.times.deal_card
+  2.deal_card
  puts = phrase display_card_total 
  return display_card_total(card_total)
     
