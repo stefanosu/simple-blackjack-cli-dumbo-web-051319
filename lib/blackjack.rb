@@ -23,7 +23,7 @@ def end_game(card_total)
   puts phrase = "Sorry, you hit #{card_total}. Thanks for playing!"
 end
 
-def initial_round
+def initial_round(card_total)
   deal_card(card_total)
  puts = phrase display_card_total 
  return display_card_total(card_total)
