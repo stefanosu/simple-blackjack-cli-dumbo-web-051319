@@ -30,9 +30,18 @@ def initial_round
 end
 
 def hit?
+  def hit?(x)
+  # code hit? here	  # code hit? here
   prompt_user
-  get_user_input
-end
+  case get_user_input
+  when "s"
+    x
+  when "h"
+    x += deal_card
+  when others
+    invalid_command
+  end
+end	end
 
 
 def invalid_command
